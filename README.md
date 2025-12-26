@@ -15,7 +15,7 @@
 
 ## Description
 
-While mining, **lootboxes** have a small chance to appear, containing various loot/gear **respective to the location you found the chest**.
+While mining, **lootboxes** have a small chance to appear, containing various loot/gear **respective to the block you found the chest from**.
 
 Balancing was built around that idea that the lootboxes are supposed to **supplement your mining, *not* replace the experience entirely**.
 
@@ -48,7 +48,9 @@ That's it! Loot boxes will now start spawning.
 
 ## Modding the Datapack
 
-### ***Basic Understanding of the Datapack***
+***If you find that this datapack is too strong, and that it should be nerfed, please refer to these next sections to see how to modify spawn chances/loot tables.***
+
+### ***Understanding the Datapack***
 Every block broken adds ```1``` to a scoreboard objective pertaining to the block broken.
 
 Every tick, the scoreboard values are checked, and any player that has a value of ```1``` or higher for any of the objectives has an execute command ran on them that raycasts forward to where they are looking. Their score for that scoreboard objective is set to ```0```.
@@ -84,6 +86,4 @@ No warranties are provided. Use at your own risk.
 
 ## TODO
 
-- Add endstone loot, just gear probably
-
-- Add netherrack loot, just materials probably
+- Add endstone gear loot table
