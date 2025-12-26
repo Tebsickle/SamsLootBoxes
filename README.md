@@ -48,7 +48,7 @@ The decided loot table to use is determined in ```spawnchest.mcfunction``` in ea
 Each folder in the [```~/data/samslootboxes/function/broken```](https://github.com/Tebsickle/SamsLootBoxes/tree/main/data/samslootboxes/function/broken) folder contains a ```blockbroken.mcfunction```. Modify the range in line 11. The higher the range, the rarer.
 
 ### ***To change the loot table of a chest:***
-The [```~/data/samslootboxes/loot_table/chests/```](https://github.com/Tebsickle/SamsLootBoxes/tree/main/data/samslootboxes/loot_table/chests) folder contains every loot table used in the pack. Each 
+The [```~/data/samslootboxes/loot_table/chests/```](https://github.com/Tebsickle/SamsLootBoxes/tree/main/data/samslootboxes/loot_table/chests) folder contains every loot table used in the pack. Each json can be modified individually without issue.
 
 ## Copyright
 
