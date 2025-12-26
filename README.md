@@ -76,7 +76,7 @@ You may not use this work, or any modified version of it, for commercial purpose
 
 No warranties are provided. Use at your own risk.
 
-### TODO:
+## TODO
 
 - Add endstone loot, just gear probably
 
