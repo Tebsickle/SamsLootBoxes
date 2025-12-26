@@ -58,13 +58,20 @@ This raycast goes forward in increments of ```0.1``` blocks until it hits the ne
 
 This chest spawns using different loot tables defined in the datapack, all located in [```~/data/samslootboxes/loot_table/chests/```](https://github.com/Tebsickle/SamsLootBoxes/tree/main/data/samslootboxes/loot_table/chests). 
 
-The decided loot table to use is determined in ```spawnchest.mcfunction``` in each folder in the [```~/data/samslootboxes/function/broken```](https://github.com/Tebsickle/SamsLootBoxes/tree/main/data/samslootboxes/function/broken) folder.
+The decided loot table to use is determined in [```~/data/samslootboxes/function/broken/spawnchest.mcfunction```](https://github.com/Tebsickle/SamsLootBoxes/tree/main/data/samslootboxes/function/broken/spawnchest.mcfunction).
 
 ### ***To change the spawn chance of a chest for a block:***
-Each folder in the [```~/data/samslootboxes/function/broken```](https://github.com/Tebsickle/SamsLootBoxes/tree/main/data/samslootboxes/function/broken) folder contains a ```blockbroken.mcfunction```. Modify the range in line 11. The higher the range, the rarer.
+Modify the ranges in lines 14-17 of [```~/data/samslootboxes/function/broken/blockbroken.mcfunction```](https://github.com/Tebsickle/SamsLootBoxes/tree/main/data/samslootboxes/function/broken/blockbroken.mcfunction). A number is chosen between ```1-1000```, and if the number is between the ranges for each block, a chest spawns. 
+
+### ***To change the chances of the chosen loot table to use when spawning a chest***:
+Modify the ranges in [```~/data/samslootboxes/function/broken/spawnchest.mcfunction```](https://github.com/Tebsickle/SamsLootBoxes/tree/main/data/samslootboxes/function/broken/spawnchest.mcfunction).
 
 ### ***To change the loot table of a chest:***
 The [```~/data/samslootboxes/loot_table/chests/```](https://github.com/Tebsickle/SamsLootBoxes/tree/main/data/samslootboxes/loot_table/chests) folder contains every loot table used in the pack. Each json can be modified individually without issue.
+
+## Special Credit
+
+Thank you [Misode](https://github.com/misode) for making a [wonderful loot table tool](https://misode.github.io/loot-table/).
 
 ## Copyright
 
