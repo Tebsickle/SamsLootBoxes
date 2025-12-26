@@ -10,7 +10,7 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:iron_pickaxe",
-              "weight": 40,
+              "weight": 50,
               "functions": [
                 {
                   "function": "minecraft:set_enchantments",
@@ -72,7 +72,7 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:golden_pickaxe",
-              "weight": 35,
+              "weight": 25,
               "functions": [
                 {
                   "function": "minecraft:set_enchantments",
@@ -84,6 +84,316 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:golden_helmet",
+              "weight": 35,
+              "functions": [
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "options": "#minecraft:in_enchanting_table",
+                  "only_compatible": true,
+                  "include_additional_cost_component": true,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance",
+                      "chance": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:iron_helmet",
+              "weight": 50,
+              "functions": [
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "options": "#minecraft:in_enchanting_table",
+                  "only_compatible": true,
+                  "include_additional_cost_component": true,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance",
+                      "chance": 0.5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:diamond_helmet",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "options": "#minecraft:in_enchanting_table",
+                  "only_compatible": true,
+                  "include_additional_cost_component": true,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance",
+                      "chance": 0.2
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:golden_chestplate",
+              "weight": 35,
+              "functions": [
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "options": "#minecraft:in_enchanting_table",
+                  "only_compatible": true,
+                  "include_additional_cost_component": true,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance",
+                      "chance": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:iron_chestplate",
+              "weight": 50,
+              "functions": [
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "options": "#minecraft:in_enchanting_table",
+                  "only_compatible": true,
+                  "include_additional_cost_component": true,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance",
+                      "chance": 0.5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:diamond_chestplate",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "options": "#minecraft:in_enchanting_table",
+                  "only_compatible": true,
+                  "include_additional_cost_component": true,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance",
+                      "chance": 0.2
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:golden_leggings",
+              "weight": 35,
+              "functions": [
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "options": "#minecraft:in_enchanting_table",
+                  "only_compatible": true,
+                  "include_additional_cost_component": true,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance",
+                      "chance": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:iron_leggings",
+              "weight": 50,
+              "functions": [
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "options": "#minecraft:in_enchanting_table",
+                  "only_compatible": true,
+                  "include_additional_cost_component": true,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance",
+                      "chance": 0.5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:diamond_leggings",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "options": "#minecraft:in_enchanting_table",
+                  "only_compatible": true,
+                  "include_additional_cost_component": true,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance",
+                      "chance": 0.2
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:golden_boots",
+              "weight": 35,
+              "functions": [
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "options": "#minecraft:in_enchanting_table",
+                  "only_compatible": true,
+                  "include_additional_cost_component": true,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance",
+                      "chance": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:iron_boots",
+              "weight": 50,
+              "functions": [
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "options": "#minecraft:in_enchanting_table",
+                  "only_compatible": true,
+                  "include_additional_cost_component": true,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance",
+                      "chance": 0.5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:diamond_boots",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "options": "#minecraft:in_enchanting_table",
+                  "only_compatible": true,
+                  "include_additional_cost_component": true,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance",
+                      "chance": 0.2
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:book",
+              "weight": 50,
+              "functions": [
+                {
+                  "function": "minecraft:set_enchantments",
+                  "enchantments": {
+                    "minecraft:efficiency": 5
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:book",
+              "weight": 50,
+              "functions": [
+                {
+                  "function": "minecraft:set_enchantments",
+                  "enchantments": {
+                    "minecraft:unbreaking": 3
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": []
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 6,
+        "max": 12
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobweb",
+          "weight": 80
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "weight": 10
         }
       ]
     }
