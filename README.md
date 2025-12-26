@@ -7,9 +7,9 @@
 </p>
 
 <p align="center">
-    <img src="https://img.shields.io/github/commit-activity/t/Tebsickle/SamsLootBoxes" alt="Commits" />
-    <img src="https://img.shields.io/github/last-commit/Tebsickle/SamsLootBoxes" alt="Last Commit">
-    <img src="https://img.shields.io/github/downloads/Tebsickle/SamsLootBoxes/total" alt="Downloads">
+    ![Commits](https://img.shields.io/github/commit-activity/t/Tebsickle/SamsLootBoxes)
+    ![Last Commit](https://img.shields.io/github/last-commit/Tebsickle/SamsLootBoxes)
+    ![Downloads](https://img.shields.io/github/downloads/Tebsickle/SamsLootBoxes/total)
 </p>
 
 ---
