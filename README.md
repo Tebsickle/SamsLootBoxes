@@ -40,15 +40,15 @@ Every tick, the scoreboard values are checked, and any player that has a value o
 
 This raycast goes forward in increments of ```0.1``` blocks until it hits the next non-air block, or ```5.5``` blocks, whichever comes first, then spawns a loot box ```0.15``` blocks closer to the player than the contact point.
 
-This chest spawns using different loot tables defined in the datapack, all located in ```~/data/samslootboxes/loot_table/chests/```. 
+This chest spawns using different loot tables defined in the datapack, all located in [```~/data/samslootboxes/loot_table/chests/```](https://github.com/Tebsickle/SamsLootBoxes/tree/main/data/samslootboxes/loot_table/chests). 
 
-The decided loot table to use is determined in ```spawnchest.mcfunction``` in each folder in the ```~/data/samslootboxes/function/broken``` folder.
+The decided loot table to use is determined in ```spawnchest.mcfunction``` in each folder in the [```~/data/samslootboxes/function/broken```](https://github.com/Tebsickle/SamsLootBoxes/tree/main/data/samslootboxes/function/broken) folder.
 
 ### ***To change the spawn chance of a chest for a block:***
-Each folder in the ```~/data/samslootboxes/function/broken``` folder contains a ```blockbroken.mcfunction```. Modify the range in line 11. The higher the range, the rarer.
+Each folder in the [```~/data/samslootboxes/function/broken```](https://github.com/Tebsickle/SamsLootBoxes/tree/main/data/samslootboxes/function/broken) folder contains a ```blockbroken.mcfunction```. Modify the range in line 11. The higher the range, the rarer.
 
 ### ***To change the loot table of a chest:***
-The ```~/data/samslootboxes/loot_table/chests/``` folder contains every loot table used in the pack. Each 
+The [```~/data/samslootboxes/loot_table/chests/```](https://github.com/Tebsickle/SamsLootBoxes/tree/main/data/samslootboxes/loot_table/chests) folder contains every loot table used in the pack. Each 
 
 ## Copyright
 
