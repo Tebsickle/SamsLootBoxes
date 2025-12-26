@@ -59,3 +59,7 @@ Permission is granted to anyone to view, copy, and modify this work **for person
 You may not use this work, or any modified version of it, for commercial purposes without explicit written permission from Sam Smithers. 
 
 No warranties are provided. Use at your own risk.
+
+### TODO:
+
+- Add deepslate gear loot table, include a group for each armor piece, each armor piece pulls from a mix between low ench. iron, high ench. iron, diamond. Have the whole pool pull 2 armor pieces and the tool.

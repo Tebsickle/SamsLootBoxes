@@ -1,0 +1,91 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:iron_pickaxe",
+              "weight": 40,
+              "functions": [
+                {
+                  "function": "minecraft:set_enchantments",
+                  "enchantments": {
+                    "minecraft:efficiency": 3
+                  }
+                },
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "options": [
+                    "minecraft:unbreaking",
+                    "minecraft:fortune"
+                  ],
+                  "only_compatible": true,
+                  "include_additional_cost_component": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:diamond_pickaxe",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_enchantments",
+                  "enchantments": {
+                    "fortune": 3,
+                    "minecraft:unbreaking": {
+                      "type": "minecraft:uniform",
+                      "min": 0,
+                      "max": 3
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:diamond_pickaxe",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "minecraft:set_enchantments",
+                  "enchantments": {
+                    "minecraft:efficiency": {
+                      "type": "minecraft:uniform",
+                      "min": 3,
+                      "max": 5
+                    },
+                    "minecraft:unbreaking": {
+                      "type": "minecraft:uniform",
+                      "min": 0,
+                      "max": 3
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:golden_pickaxe",
+              "weight": 35,
+              "functions": [
+                {
+                  "function": "minecraft:set_enchantments",
+                  "enchantments": {
+                    "minecraft:efficiency": 10,
+                    "minecraft:unbreaking": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
