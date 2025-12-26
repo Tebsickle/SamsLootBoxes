@@ -1,7 +1,5 @@
 # <p align=center><img src="github/chest.png" width="35"> Sam's Loot Boxes</p>
 
----
-
 <p align="center">
     A minimal datapack that brings lootboxes to the mining experience of Minecraft.
 </p>
