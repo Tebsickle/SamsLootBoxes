@@ -33,7 +33,7 @@ That's it! Loot boxes will now start spawning.
 
 ## Modding the Datapack
 
-#### ***Basic Understanding of the Datapack***
+### ***Basic Understanding of the Datapack***
 Every block broken adds ```1``` to the scoreboard objective pertaining to the block broken.
 
 Every tick, the scoreboard values are checked, and any player that has a value of ```1``` or higher for any of the objectives has an execute command ran on them that raycasts forward to where they are looking. Their score for that scoreboard objective is set to ```0```.
@@ -44,10 +44,10 @@ This chest spawns using different loot tables defined in the datapack, all locat
 
 The decided loot table to use is determined in ```spawnchest.mcfunction``` in each folder in the ```~/data/samslootboxes/function/broken``` folder.
 
-#### ***To change the spawn chance of a chest for a block:***
+### ***To change the spawn chance of a chest for a block:***
 Each folder in the ```~/data/samslootboxes/function/broken``` folder contains a ```blockbroken.mcfunction```. Modify the range in line 11. The higher the range, the rarer.
 
-#### ***To change the loot table of a chest:***
+### ***To change the loot table of a chest:***
 The ```~/data/samslootboxes/loot_table/chests/``` folder contains every loot table used in the pack. Each 
 
 ## Copyright
