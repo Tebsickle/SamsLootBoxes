@@ -1,8 +1,24 @@
-# Sam's Loot Boxes
+# <center><img src="github/chest.png" width="35"> Sam's Loot Boxes</center>
+
+---
+
+<p align="center">
+    A minimal datapack that brings lootboxes to the mining experience of Minecraft.
+</p>
+
+<p align="center">
+    <img src="https://img.shields.io/github/commit-activity/t/Tebsickle/SamsLootBoxes" alt="Commits" />
+    <img src="https://img.shields.io/github/last-commit/Tebsickle/SamsLootBoxes" alt="Last Commit">
+    <img src="https://img.shields.io/github/downloads/Tebsickle/SamsLootBoxes/total" alt="Downloads">
+</p>
+
+---
 
 ## Description
 
 While mining, **lootboxes** have a small chance to appear, containing various loot/gear **respective to the location you found the chest**.
+
+Balancing was built around that idea that the lootboxes are supposed to **supplement your mining, *not* replace the experience entirely**.
 
 The specific blocks that can spawn lootboxes are:
 - Stone
@@ -14,7 +30,7 @@ Chests may contain:
 - Ores/Ingots
 - Gear
 
-By default, **chests spawn at the following rates**:
+By default, **chests spawn at the following rates** per block:
 | **Block** | **Spawn Chance** |
 |-------|--------------|
 | Stone | 0.5% |
@@ -34,7 +50,7 @@ That's it! Loot boxes will now start spawning.
 ## Modding the Datapack
 
 ### ***Basic Understanding of the Datapack***
-Every block broken adds ```1``` to the scoreboard objective pertaining to the block broken.
+Every block broken adds ```1``` to a scoreboard objective pertaining to the block broken.
 
 Every tick, the scoreboard values are checked, and any player that has a value of ```1``` or higher for any of the objectives has an execute command ran on them that raycasts forward to where they are looking. Their score for that scoreboard objective is set to ```0```.
 
@@ -62,4 +78,6 @@ No warranties are provided. Use at your own risk.
 
 ### TODO:
 
-- Add deepslate gear loot table, include a group for each armor piece, each armor piece pulls from a mix between low ench. iron, high ench. iron, diamond. Have the whole pool pull 2 armor pieces and the tool.
+- Add endstone loot, just gear probably
+
+- Add netherrack loot, just materials probably
