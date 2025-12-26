@@ -8,9 +8,9 @@
 
 <p align="center">
     <img src="https://img.shields.io/github/commit-activity/t/Tebsickle/SamsLootBoxes" alt="Commits" />
-    <img src="https://img.shields.io/github/last-commit/Tebsickle/SamsLootBoxes" alt="Last Commit">
-    <img src="https://img.shields.io/github/downloads/Tebsickle/SamsLootBoxes/total" alt="Downloads">
-    <img src="https://img.shields.io/badge/mc version-1.21.11-purple" />
+    <img src="https://img.shields.io/github/last-commit/Tebsickle/SamsLootBoxes" alt="Last Commit" />
+    <img src="https://img.shields.io/github/downloads/Tebsickle/SamsLootBoxes/total" alt="Downloads" />
+    <img src="https://img.shields.io/badge/mc version-1.21.11-purple" alt="MC Version" />
 </p>
 
 ---
@@ -41,7 +41,7 @@ By default, **chests spawn at the following rates** per block:
 
 ## Installation
 
-1. Download this repo by clicking the green code button.
+1. Download a release of this repo from [here](https://github.com/Tebsickle/SamsLootBoxes/releases).
 2. Unzip the downloaded folder.
 3. Move the unzipped folder into your minecraft world's ```datapack``` folder.
 4. In game, use the command ```/reload```.
