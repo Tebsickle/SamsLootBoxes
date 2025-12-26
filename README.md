@@ -11,8 +11,8 @@ The specific blocks that can spawn lootboxes are:
 - End stone
 
 Chests may contain:
-- ores/ingots
-- gear
+- Ores/Ingots
+- Gear
 
 By default, **chests spawn at the following rates**:
 | **Block** | **Spawn Chance** |
