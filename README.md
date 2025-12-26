@@ -6,10 +6,16 @@
     A minimal datapack that brings lootboxes to the mining experience of Minecraft.
 </p>
 
+<center>
+
+[<img src="https://img.shields.io/github/commit-activity/t/Tebsickle/SamsLootBoxes" alt="Commits" />](https://github.com/Tebsickle/SamsLootBoxes/commits/main/)
+
+</center>
+
 <p align="center">
-    ![Commits](https://img.shields.io/github/commit-activity/t/Tebsickle/SamsLootBoxes)
-    ![Last Commit](https://img.shields.io/github/last-commit/Tebsickle/SamsLootBoxes)
-    ![Downloads](https://img.shields.io/github/downloads/Tebsickle/SamsLootBoxes/total)
+    <img src="https://img.shields.io/github/commit-activity/t/Tebsickle/SamsLootBoxes" alt="Commits" />
+    <img src="https://img.shields.io/github/last-commit/Tebsickle/SamsLootBoxes" alt="Last Commit">
+    <img src="https://img.shields.io/github/downloads/Tebsickle/SamsLootBoxes/total" alt="Downloads">
 </p>
 
 ---
