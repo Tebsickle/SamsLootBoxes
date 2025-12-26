@@ -9,11 +9,11 @@
 
 # Stop if chest spawned already or exceeds max distance.
 execute if score @s chestSpawned matches 1 run return 1
-execute if score @s raycastDist matches 40.. run execute positioned ^ ^ ^-0.15 run function samslootboxes:broken/stone/spawnchest
+execute if score @s raycastDist matches 40.. run execute positioned ^ ^ ^-0.15 run function samslootboxes:broken/spawnchest
 
 # If solid block found, spawn chest in front of it (relative to the player's look vector)
-execute unless block ~ ~ ~ minecraft:air run execute positioned ^ ^ ^-0.15 run function samslootboxes:broken/stone/spawnchest
+execute unless block ~ ~ ~ minecraft:air run execute positioned ^ ^ ^-0.15 run function samslootboxes:broken/spawnchest
 
 # Otherwise recurse further.
 scoreboard players add @s raycastDist 1
-execute positioned ^ ^ ^.1 run function samslootboxes:broken/stone/recurse
+execute positioned ^ ^ ^.1 run function samslootboxes:broken/recurse
