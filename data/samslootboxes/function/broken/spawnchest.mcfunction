@@ -24,5 +24,7 @@ execute if score @s chestRandom matches 1..800 if score @s deepslateBroken match
 execute if score @s chestRandom matches 801..1000 if score @s deepslateBroken matches 1.. run setblock ~ ~ ~ chest{LootTable:"samslootboxes:chests/deepslate/gear"}
 
 # Netherrack
+execute if score @s chestRandom matches 1..1000 if score @s netherrackBroken matches 1.. run setblock ~ ~ ~ chest{LootTable:"samslootboxes:chests/netherrack/materials"}
 
 # End Stone
+execute if score @s chestRandom matches 1..1000 if score @s endstoneBroken matches 1.. run setblock ~ ~ ~ chest{LootTable:"samslootboxes:chests/endstone/materials"}
