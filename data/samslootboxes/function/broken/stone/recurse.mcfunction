@@ -9,7 +9,7 @@
 
 # Stop if chest spawned already or exceeds max distance.
 execute if score @s chestSpawned matches 1 run return 1
-execute if score @s raycastDist matches 50.. run return 1
+execute if score @s raycastDist matches 40.. run execute positioned ^ ^ ^-0.15 run function samslootboxes:broken/stone/spawnchest
 
 # If solid block found, spawn chest in front of it (relative to the player's look vector)
 execute unless block ~ ~ ~ minecraft:air run execute positioned ^ ^ ^-0.15 run function samslootboxes:broken/stone/spawnchest

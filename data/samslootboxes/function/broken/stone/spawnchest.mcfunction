@@ -9,6 +9,7 @@
 
 scoreboard players set @s chestSpawned 1
 particle glow ~ ~ ~ 0 0 0 10 500 force @s
+playsound minecraft:entity.player.levelup master @s ~ ~ ~ 0.5 0.7 0.51
 
 # TODO: MAYBE ADD MORE POTENTIAL CHESTS.
 # Chest randomization

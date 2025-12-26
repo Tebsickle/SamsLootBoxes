@@ -38,7 +38,7 @@ Every block broken adds ```1``` to the scoreboard objective pertaining to the bl
 
 Every tick, the scoreboard values are checked, and any player that has a value of ```1``` or higher for any of the objectives has an execute command ran on them that raycasts forward to where they are looking. Their score for that scoreboard objective is set to ```0```.
 
-This raycast goes forward in increments of ```0.1``` blocks until it hits the next non-air block, or ```5.5``` blocks, whichever comes first, then spawns a loot box ```0.15``` blocks closer to the player than the contact point.
+This raycast goes forward in increments of ```0.1``` blocks until it hits the next non-air block, or ```4.5``` blocks, whichever comes first, then spawns a loot box ```0.15``` blocks closer to the player than the contact point.
 
 This chest spawns using different loot tables defined in the datapack, all located in [```~/data/samslootboxes/loot_table/chests/```](https://github.com/Tebsickle/SamsLootBoxes/tree/main/data/samslootboxes/loot_table/chests). 
 
