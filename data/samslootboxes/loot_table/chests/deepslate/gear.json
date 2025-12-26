@@ -77,8 +77,7 @@
                 {
                   "function": "minecraft:set_enchantments",
                   "enchantments": {
-                    "minecraft:efficiency": 10,
-                    "minecraft:unbreaking": 1
+                    "minecraft:efficiency": 10
                   }
                 }
               ]
