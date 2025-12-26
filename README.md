@@ -1,4 +1,4 @@
-# <center><img src="github/chest.png" width="35"> Sam's Loot Boxes</center>
+# <p align=center><img src="github/chest.png" width="35"> Sam's Loot Boxes</p>
 
 ---
 
