@@ -87,3 +87,7 @@ No warranties are provided. Use at your own risk.
 ## TODO
 
 - Add endstone gear loot table
+
+- Add block placing markers
+
+- Prevent chest spawns on marked blocks
